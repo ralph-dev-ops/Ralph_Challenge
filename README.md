@@ -11,6 +11,8 @@ For server validation, the `02_validate.sh` script is used to check for an HTTP 
 
 The validation script will only work correctly after the target group has completed registration in AWS. This script can be combined with a wait loop to automatically check for target registration, but for purposes of this demo it is run independently.
 
+https://ralph-secnet.us-east-1.elasticbeanstalk.com/
+
 # Code
 
 I chose to use Go as it has primitive types for complex numbers, which makes complex number operations trivial. There is an included Makefile to build the code.
