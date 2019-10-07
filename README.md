@@ -1,6 +1,6 @@
 # Infrastructure
 
-I chose to use AWS Elastic Beanstalk for the task at hand as it provides everything needed to host a single page application with minimal effort.
+I chose to use AWS Elastic Beanstalk for the task at hand as it provides everything needed to host a static web application with minimal effort.
 
 I initially was going to use cloud formation to for Elastic Beanstalk, but was able to leverage the AWS CLI commands for Elastic Beanstalk.
 https://github.com/aws/aws-elastic-beanstalk-cli-setup
